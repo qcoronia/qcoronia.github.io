@@ -7,6 +7,7 @@
   display: flex;
   background: none;
   justify-content: stretch;
+  gap: 20px;
 
   li {
     &.fork {
@@ -15,8 +16,6 @@
 
     a {
       display: list-item;
-      margin-left: 10px;
-      margin-right: 10px;
     }
   }
 }
